@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/0c95e57dc9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav class="nav-bar">
+                <h3 class="logo">Portfolio</h3>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    
+                    <li><a href="#content">Contact </a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <div class="row">
+                    <div class="about-col-1">
+                    
+                        <img src='image.png'>
+                    </div>
+                    <div class="about-col-2">
+                        <br>
+                        <p>Hi,</p>
+                        <h1>I'm <span>Manivas</span><br>Thummalapenta <br><h3>From India</h3></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------About--------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">About Me</h1><br>
+                    <h4><p>I’m a nice fun and friendly person, I’m honest and punctual, 
+                        I work well in a team but also on my own as I like to set myself goals which I will achieve, 
+                        I have good listening and communication skills. I have a creative mind and am always up for new challenges. 
+                        I am well organized and always plan ahead to make sure I manage my time well.
+                    </p></h4>
+                </div> 
+                <div class="about-col-1">
+                    <div class="tab-title">
+                        <p class="Tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="Tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="Tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab " id="Skills">
+                        <ul>
+                             <li><span>Coder</span><br>Learning OOPS cocepts</li>
+                            <li><span>Coder</span> <br>Python</li>
+                            <li><span>Web Developer</span> <br>Web Designer</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="Experience">
+                        <ul>
+                            <li>completed Microsoft Student Ambassador for Learn Devops for web Development Bootcamp <br></li>
+                            <li>completed python courses provided by Great Learning <br></li>
+                            <li>completed  a project on sales and inventory management system<br></li>
+                            <li><span> </span><br></li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2019</span><br>completed 10th standard at SANSKRITI VIDYALAYA HIGH SCHOOL</li>
+                            <li><span>2021</span> <br>completed 12th standard at SAI VIKRAM JUNIOR college</li>
+                            <li><span>2021-current</span><br>Studing at SRM UNIVERSITY</li>
+                        </ul>
+                    </div>
+                    </div>
+             </div>
+        </div>
+    </div>
+    <!------------Services------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-tittle">My Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Personal Skills</h2>
+                    <p>Positive attitude,Self motivated,Teamwork
+                       ,Thinking skills,Decision making skills,Willingness to learn
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <!-- <div>
+                    <i class="fa-solid fa-arrows-to-circle"></i>
+                    <h2>Content Writter</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, omnis asperiores alias ea
+                        numquam nulla aperiam ex qui amet ut.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div> -->
+                <div>
+                    <i class="fa-sharp fa-solid fa-lightbulb"></i>
+                    <h2>Technical Skills</h2>
+                    <p> C, Python, Web development, HTML, CSS    
+                        
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------Portfolio-------------->
+    <!-- <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-tittle">My Work</h1>
+            <div class="work-list">
+
+            </div>
+        </div>
+    </div> -->
+    <!---------Content---------->
+    <div id="content"> 
+        <div class="container">
+            <div class="row">
+            <div class="contact-left"><h1 class="sub-tittle">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>manivas9204@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>+918688385963</p>
+            <div class="social-icons">
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://x.com/ManivasT?t=VqTRbE77Kkpt735Wb06aPw&s=09"><i class="fa-brands fa-twitter-square"></i></a>
+                <a href="https://instagram.com/manivas___thummalapenta?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/manivas-thummalapenta-b0b391286"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/manivas92"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a href="https://drive.google.com/file/d/1REyyg9tcNyc-hmStJedjUDAUcQUDlElC/view?usp=drivesdk" class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+        </div>
+        <div class="copyright">
+            <p>copyright Made By Bharath</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("Tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0"
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px"
+        }
+    </script>
+</body>
+
+</html>
